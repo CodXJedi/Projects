@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My server</title>
+    <style>
+      body {
+        background-color: #1d1d1d;
+        color: #fff;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      .box {
+        width: 350px;
+        height: 150px;
+        border: solid 1px;
+        margin: 250px auto;
+        text-align: center;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+      .box:hover {
+        transform: scale(1.055);
+        transition: all 0.6s ease;
+      }
+      .box > a {
+        text-decoration: none;
+      }
+      .box > a:hover {
+        color: rgb(145, 88, 88);
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>Hello from nodejs</h1>
+      <a href="/registration">Регистрация</a>
+    </div>
+  </body>
+</html>
