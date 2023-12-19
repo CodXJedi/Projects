@@ -1,0 +1,559 @@
+/*------------------------ITTINERY 1 block-----------------------------*/
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+.Ittinery1{
+    width: 800px;
+    height: 280px;
+    margin: auto;
+    margin-top: 40px;
+    animation-name: it-text;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 6.5s;
+    animation-iteration-count: 1;
+    opacity: 0;
+    animation-fill-mode: both;
+}
+@keyframes it-text {
+    0%{
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.Ittinery1>h3{
+    font-family: ChunkFive-Regular;
+    font-size: 65px;
+    color: #29d9c2;
+    margin-left: 220px;
+}
+.Ittinery1>span{
+    font-family: ChunkFive-Regular;
+    font-size: 65px;
+    color: #01a2a6;
+    position: relative;
+    top: -77px;
+    left: 340px;
+}
+.Ittinery1>p{
+    line-height: 30px;
+    margin-top: -30px;
+    text-align: center;
+    font-family: Lato-Regular;
+    font-size: 16px;
+    color: #777;
+}
+/*--------------------ITTINERY 2 block-----------------------------*/
+.Ittinery2{
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+/*-----------------Ittinery 2.1 block left-yellow-----------------------*/
+.Ittinery2-1box{
+    width: 750px;
+    height: 800px;
+    margin-right: 20px;
+    animation-name: it-box1;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 7s;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-fill-mode: both;
+}
+@keyframes it-box1 {
+    0%{
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+/*--------------------Ittinery 2.1 title left-yellow---------------------*/
+.Ittinery2-1title{
+    width: 750px;
+    height: 80px;
+    position: relative;
+    top: -23px;
+    background-image: url(../image/Ittinery_title_bg.png);
+    background-size: 100% 100%;
+    font-family: Lato-Regular;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+/*--------------------Ittinery 2.1 dayplan left-yellow-------------------*/
+.Ittinery2-1_dayplan{
+    position: relative;
+    top: -23px;
+    width: 750px;
+    height: 370px;
+    background-color: #ffffa6;
+}
+.Ittinery2-1_dayplan p{
+    font-family: Lato-Regular;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 30px;
+    margin-left: 40px;
+    color: #29d9c2;
+}
+.it_input{
+    position: relative;
+    top: -20px;
+    left: 550px;
+    background-color: #ffffa6;
+    border: none;
+    font-family: Lato-Regular;
+    font-size: 16px;
+    color: #29d9c2;
+    font-weight: 700;
+}
+.it_sub{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #f5e99e;
+    position: relative;
+    left: 440px;
+    padding-top: 5px;
+    text-align: center;
+}
+.it_bromo{
+    width: 620px;
+    height: 80px;
+    border: solid 1px gray;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 40px;
+    display: flex;
+}
+.it_bromo img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.it_bromo h3{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: Lato-Regular;
+    font-size: 25px;
+    color: gray;
+    font-weight: lighter;
+}
+.it_bromo input{
+    position: relative;
+    left: 280px;
+    font-family: Lato-Regular;
+    font-size: 20px;
+    color: gray;
+    font-weight: lighter;
+    border: none;
+}
+.it_batu{
+    width: 620px;
+    height: 80px;
+    border: solid 1px gray;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 30px;
+    display: flex;
+}
+.it_batu img{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.it_batu h3{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: Lato-Regular;
+    font-size: 25px;
+    color: gray;
+    font-weight: lighter;
+}
+.it_batu input{
+    position: relative;
+    left: 280px;
+    font-family: Lato-Regular;
+    font-size: 20px;
+    color: gray;
+    font-weight: lighter;
+    border: none;
+}
+/*------------------------Ittinery 2.1 dayplan2- left-yellow-------------*/
+.Ittinery2-1_dayplan2{
+    position: relative;
+    top: -23px;
+    width: 750px;
+    height: 300px;
+    background-color: #ffffa6;
+}
+.Ittinery2-1_dayplan2 p{
+    font-family: Lato-Regular;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 30px;
+    margin-left: 40px;
+    color: #29d9c2;
+}
+.Ittinery2-1_dayplan2 div{
+    width: 620px;
+    height: 40px;
+    border: solid 3px #c9c96b;
+    border-style: dashed;
+    border-radius: 10px;
+    background-color: #d8ca7d4f;;
+    margin-left: 40px;
+    color: #d8cb7d;
+    text-align: center;
+    font-family: Lato-Regular;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-top: 20px;
+}
+.it_input1{
+    position: relative;
+    top: -20px;
+    left: 550px;
+    background-color: #ffffa6;
+    border: none;
+    font-family: Lato-Regular;
+    font-size: 16px;
+    color: #29d9c2;
+    font-weight: 700;
+}
+
+/*------------------------Ittinery 2-2 block--right--------------------*/
+.Ittinery2-2box{
+    position: relative;
+    top: -150px;
+    left: 50px;
+    width: 450px;
+    height: 520px;
+    animation-name: it-box2;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 7s;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-fill-mode: both;
+}
+@keyframes it-box2 {
+    0%{
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.Ittinery2-2box>h3{
+    margin-top: 30px;
+    font-family: Lato-Regular;
+    font-size: 20px;
+    text-align: center;
+    color: #01a2a6;
+    font-weight: lighter;
+    margin-bottom: 60px;
+}
+.Ittinery2-2box>p{
+    font-family: Lato-Regular;
+    font-size: 16px;
+    color: #01a2a6;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.Ittinery2-2box select{
+    position: relative;
+    top: -20px;
+    left: 60px;
+    border: none;
+    color: rgba(128, 128, 128, 0.521);
+    font-family: Lato-Regular;
+    font-size: 17px;
+    
+}
+.Ittinery2-2box>img{
+    position: relative;
+    top: -15px;
+    left: 280px;
+}
+.Ittinery2-2box>div{
+    width: 450px;
+    height: 80px;
+    background-color: white;
+    border: solid 1px gray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+/*----------------------ITTINENERY 2-2 BOX1----------------------*/
+.Ittinery2-2box1{
+    display: flex;
+}
+.Ittinery2-2box1 h3{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: gray;
+    font-family: Lato-Regular;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.Ittinery2-2box1 img{
+    position: relative;
+    left: 230px;
+    margin-top: 10px;
+}
+.Ittinery2-2box1 a{
+    color:rgb(20, 200, 206);
+    position: relative;
+    top: 55px;
+    left: 4px;
+}
+.Ittinery2-2box1 p{
+    color: gray;
+    position: relative;
+    top: 53px;
+    left: -190px;
+}
+.Ittinery2-2box1 span{
+    color: #01a2a6;
+    font-family: Lato-Regular;
+    font-size: 16px;
+    position: relative;
+    left: -185px;
+    top: 51px;
+    font-weight: bold;
+}
+/*----------------------ITTINENERY 2-2 BOX2----------------------*/
+.Ittinery2-2box2{
+    display: flex;
+}
+.Ittinery2-2box2 h3{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: gray;
+    font-family: Lato-Regular;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.Ittinery2-2box2 img{
+    position: relative;
+    left: 230px;
+    margin-top: 10px;
+}
+.Ittinery2-2box2 a{
+    color:rgb(20, 200, 206);
+    position: relative;
+    top: 55px;
+    left: 4px;
+}
+.Ittinery2-2box2 p{
+    color: gray;
+    position: relative;
+    top: 53px;
+    left: -190px;
+}
+.Ittinery2-2box2 span{
+    color: #01a2a6;
+    font-family: Lato-Regular;
+    font-size: 16px;
+    position: relative;
+    left: -185px;
+    top: 51px;
+    font-weight: bold;
+}
+/*----------------------ITTINENERY 2-2 BOX3----------------------*/
+.Ittinery2-2box3{
+    display: flex;
+}
+.Ittinery2-2box3 h3{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: gray;
+    font-family: Lato-Regular;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.Ittinery2-2box3 img{
+    position: relative;
+    left: 230px;
+    margin-top: 10px;
+}
+.Ittinery2-2box3 a{
+    color:rgb(20, 200, 206);
+    position: relative;
+    top: 55px;
+    left: 4px;
+}
+.Ittinery2-2box3 p{
+    color: gray;
+    position: relative;
+    top: 53px;
+    left: -190px;
+}
+.Ittinery2-2box3 span{
+    color: #01a2a6;
+    font-family: Lato-Regular;
+    font-size: 16px;
+    position: relative;
+    left: -185px;
+    top: 51px;
+    font-weight: bold;
+}
+/*----------------------ITTINENERY 2-2 BOX4----------------------*/
+.Ittinery2-2box4{
+    display: flex;
+}
+.Ittinery2-2box4 h3{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: gray;
+    font-family: Lato-Regular;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.Ittinery2-2box4 img{
+    position: relative;
+    left: 230px;
+    margin-top: 10px;
+}
+.Ittinery2-2box4 a{
+    color:rgb(20, 200, 206);
+    position: relative;
+    top: 55px;
+    left: 4px;
+}
+.Ittinery2-2box4 p{
+    color: gray;
+    position: relative;
+    top: 53px;
+    left: -190px;
+}
+.Ittinery2-2box4 span{
+    color: #01a2a6;
+    font-family: Lato-Regular;
+    font-size: 16px;
+    position: relative;
+    left: -185px;
+    top: 51px;
+    font-weight: bold;
+}
+/*----------------------ITTINENERY 2-2 BOX5----------------------*/
+.Ittinery2-2box5{
+    display: flex;
+}
+.Ittinery2-2box5 h3{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: gray;
+    font-family: Lato-Regular;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.Ittinery2-2box5 img{
+    position: relative;
+    left: 230px;
+    margin-top: 10px;
+}
+.Ittinery2-2box5 a{
+    color:rgb(20, 200, 206);
+    position: relative;
+    top: 55px;
+    left: 4px;
+}
+.Ittinery2-2box5 p{
+    color: gray;
+    position: relative;
+    top: 53px;
+    left: -190px;
+}
+.Ittinery2-2box5 span{
+    color: #01a2a6;
+    font-family: Lato-Regular;
+    font-size: 16px;
+    position: relative;
+    left: -185px;
+    top: 51px;
+    font-weight: bold;
+}
+/*------------------------Ittinery 3block button------------------------*/
+.Ittinerybutton{
+    display: flex;
+    animation-name: it-button;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 7s;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-fill-mode: both;
+}
+@keyframes it-button {
+    0%{
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.Ittinerybutton1{
+    width: 180px;
+    height: 70px;
+    border: none;
+    border-radius: 35px;
+    position: relative;
+    top: 400px;
+    left: -850px;
+    color: white;
+    background-color: rgb(130, 206, 16);
+    font-family: Lato-Regular;
+    font-size: 16px;
+    background-image: url(../image/savepdf_icon.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 25px;
+}
+.Ittinerybutton1:hover{
+    background-color: rgba(130, 206, 16, 0.788);
+}
+.Ittinerybutton2{
+    width: 140px;
+    height: 70px;
+    border: none;
+    border-radius: 35px;
+    position: relative;
+    top: 400px;
+    left: -820px;
+    color: white;
+    background-color: rgb(20, 200, 206);
+    font-family: Lato-Regular;
+    font-size: 16px;
+    background-image: url(../image/print_icon.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 25px;
+}
+.Ittinerybutton2:hover{
+    background-color: rgba(20, 200, 206, 0.705);
+}

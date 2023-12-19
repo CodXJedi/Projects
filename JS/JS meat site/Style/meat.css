@@ -1,0 +1,412 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Главный блок страницы */
+#main {
+  width: 100%;
+  min-height: 2000px;
+  background-image: url(../Картинки/дерево2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Верхний блок страницы */
+#header_banner {
+  background-image: url(../Картинки/produkty-5-1.jpg.crdownload);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 600px;
+  margin: auto;
+}
+
+#header_text {
+  width: 100%;
+  margin: auto;
+  padding-top: 150px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+#logo {
+  background-color: rgb(236, 171, 51);
+  width: 83%;
+  height: 250px;
+  border-radius: 7px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.logo_center {
+  margin-right: 450px;
+  margin-left: 250px;
+}
+
+#logo div {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  position: relative;
+  z-index: 0;
+}
+
+/* Центральный блок страницы */
+.mid {
+  width: 95%;
+  min-height: 3200px;
+  background-color: rgb(238, 228, 228);
+  border-radius: 15px;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.mid_header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+/* Всплывающий блок корзины */
+#main__korz {
+  position: fixed;
+  top: 0px;
+  left: 700px;
+  width: 525px;
+  height: 100%;
+  background-color: white;
+  overflow-y: scroll;
+  display: none;
+  z-index: 100;
+  background-color: grey;
+  color: white;
+  font-size: 18px;
+}
+
+/* Верхняя часть Всплывающего блока корзины */
+#inner-top__midkorz {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: center;
+  border-bottom: solid 1px orange;
+  width: 498px;
+  height: 70px;
+  margin-bottom: 20px;
+  margin-right: 0;
+  padding-right: 10px;
+  background-color: orange;
+}
+#btntrash {
+  width: 90px;
+  border: none;
+  background: rgb(117, 108, 108);
+  color: black;
+  transition: 1s;
+}
+#btntrash:hover {
+  background: orange;
+}
+.inner-top__textkorz {
+  font-size: 22px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 20px;
+  padding-right: 85px;
+}
+#inner-top__btnclear {
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 20px;
+  transition: 1s;
+  border: solid 1px;
+}
+#inner-top__btnclear:hover {
+  background: orange;
+}
+/* Тело Всплывающего блока корзины */
+.mid__korz-body {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-left: 20px;
+  width: 570px;
+  height: auto;
+  border: none;
+}
+#mid__korz {
+  padding-left: 20px;
+  width: 370px;
+  height: auto;
+  border: none;
+  transition: 1s;
+}
+
+.mid_header > span {
+  font-size: 20px;
+}
+.mid-header__list > span {
+  font-size: 22px;
+}
+.mid_header > div {
+  width: 350px;
+  height: 60px;
+}
+
+.mid_nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+}
+
+#btn-min__korz {
+  border: none;
+  background-color: rgb(238, 228, 228);
+  color: rgb(117, 43, 117);
+  font-family: serif;
+  font-size: 22px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+#min-korz__quantity {
+  position: relative;
+  top: -10px;
+  background-color: orange;
+  border-radius: 50%;
+  font-size: 18px;
+  color: black;
+  padding: 0 5px;
+}
+
+.mid_header2 {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+p {
+  margin-top: 0;
+}
+.mid_header2 p {
+  font-size: 20px;
+}
+.nav_2 {
+  display: flex;
+  justify-content: space-around;
+  width: 700px;
+  height: 60px;
+  margin-left: 500px;
+}
+#select {
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+}
+
+.center {
+  width: 100%;
+  min-height: 900px;
+  margin-top: 10px;
+  filter: none;
+}
+
+.center_one {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.center_one div {
+  width: 430px;
+  height: 550px;
+  text-align: center;
+  font-size: 20px;
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: white;
+  padding-top: 15px;
+  margin-right: 15px;
+}
+
+.center_one input {
+  border-color: orange;
+  border-radius: 2px;
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 360px;
+  height: 30px;
+  margin-top: 15px;
+  transition: 1s;
+  cursor: pointer;
+}
+.center_one input:hover {
+  background-color: orange;
+}
+
+.center_two {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.center_two div {
+  width: 430px;
+  height: 550px;
+  text-align: center;
+  font-size: 20px;
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: white;
+  padding-top: 15px;
+  margin-right: 15px;
+}
+
+.center_two input {
+  border-color: orange;
+  border-radius: 2px;
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 360px;
+  height: 30px;
+  margin-top: 15px;
+  transition: 1s;
+  cursor: pointer;
+}
+.center_two input:hover {
+  background-color: orange;
+}
+.center_three {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.center_three div {
+  width: 430px;
+  height: 550px;
+  text-align: center;
+  font-size: 20px;
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: white;
+  padding-top: 15px;
+  margin-right: 15px;
+}
+
+.center_three input {
+  border-color: orange;
+  border-radius: 2px;
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 360px;
+  height: 30px;
+  margin-top: 15px;
+  transition: 1s;
+  cursor: pointer;
+}
+.center_three input:hover {
+  background-color: orange;
+}
+.center_four {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.center_four div {
+  width: 430px;
+  height: 550px;
+  text-align: center;
+  font-size: 20px;
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: white;
+  padding-top: 15px;
+  margin-right: 15px;
+}
+
+.center_four input {
+  border-color: orange;
+  border-radius: 2px;
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 360px;
+  height: 30px;
+  margin-top: 15px;
+  transition: 1s;
+  cursor: pointer;
+}
+.center_four input:hover {
+  background-color: orange;
+}
+
+.center_five {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+
+.center_five div {
+  width: 430px;
+  height: 550px;
+  text-align: center;
+  font-size: 20px;
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: white;
+  padding-top: 14px;
+  margin-right: 15px;
+}
+
+.center_five input {
+  border-color: orange;
+  border-radius: 2px;
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 360px;
+  height: 30px;
+  margin-top: 15px;
+  transition: 1s;
+  cursor: pointer;
+}
+.center_five input:hover {
+  background-color: orange;
+}
+#footer_logo {
+  background-color: rgb(236, 171, 51);
+  width: 100%;
+  height: 150px;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 40px;
+  padding-top: 30px;
+}
+
+#footer_logo div {
+  width: 1000px;
+  height: 150px;
+  margin: auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  padding-top: 10px;
+}

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../Style/meat.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="header_banner">
+        <div id="header_text">
+          <img
+            src="../Картинки/pasted svg 267238x120.svg"
+            alt=""
+            width="350px"
+          />
+        </div>
+        <div id="logo">
+          <a href="#">
+            <img
+              src="../Картинки/pasted svg 7358x62.svg"
+              alt=""
+              width="74px"
+              height="63px"
+            />
+          </a>
+          <div>
+            <img
+              src="../Картинки/tupogub.png"
+              alt=""
+              width="180px"
+              height="316px"
+            />
+          </div>
+          <div class="logo_center">
+            <img
+              src="../Картинки/pasted svg 268x125.svg"
+              alt=""
+              width="330px"
+            />
+          </div>
+          <div>
+            <img
+              src="../Картинки/pasted svg 253988x298.svg"
+              alt=""
+              width="200px"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="mid">
+        <div class="mid_header">
+          <div id="main__korz">
+            <div id="inner-top__midkorz">
+              <button id="btntrash" onclick="Switch2()">
+                <img src="../Картинки/long-arrow-right.png" alt="" />
+              </button>
+              <span class="inner-top__textkorz">Корзина</span>
+              <button id="inner-top__btnclear" onclick="Clear()">
+                X Очистить
+              </button>
+            </div>
+            <div id="mid__korz-body">
+              <div id="mid__korz">Здесь нет товаров!</div>
+              <!-- <div id="btncount">
+                <button id="btn__plus">+</button>
+                <span>0</span>
+                <button id="btn__minus">-</button>
+              </div> -->
+              <div id="mid__korz-sum"></div>
+            </div>
+          </div>
+          <div>
+            <a href="#" class="mid-header__list">
+              <span> Продолжить покупки </span>
+            </a>
+          </div>
+          <div class="mid_nav">
+            <a href="#" class="mid-header__list">
+              <span> Войти </span>
+            </a>
+            <a href="#" class="mid-header__list">
+              <span> Избранное </span>
+            </a>
+            <button id="btn-min__korz" onclick="Switch1()">
+              <img src="../Картинки/shopping-cart.png" alt="" />
+              <span id="min-korz__quantity">0</span>
+            </button>
+          </div>
+        </div>
+        <div class="mid_header2">
+          <a href="#">Главное</a>
+          <div class="nav_2">
+            <span> Вид: </span>
+            <a href="#">
+              <span> Сетка </span>
+            </a>
+            <a href="#">
+              <span> Список </span>
+            </a>
+            <a href="#">
+              <span> Таблица </span>
+            </a>
+            <span> Сортировка по </span>
+            <select id="select">
+              <option value="text"></option>
+              <option value="text">Рекомендации</option>
+              <option value="text">Новинки</option>
+              <option value="text">Цены: От низкой к высоким</option>
+              <option value="text">Цены: От высокой к низким</option>
+              <option value="text">Цены: От А до Я</option>
+            </select>
+          </div>
+        </div>
+        <div class="center">
+          <div class="center_one">
+            <div>
+              <img src="../Картинки/981772082.jpg" alt="" id="img1" /> <br />
+              <span>Ломтики индейки - 50гр</span> <br />
+              <br />
+              <span>2 000 тенге</span> <br />
+              <br />
+              <input
+                type="button"
+                id="btn1"
+                value="+ в корзину"
+                onclick="Count(),
+              putItem(`<img src='../Картинки/981772082.jpg' alt='' id='img1' width='80px' height='-10px'`, `Ломтики индейки-50гр`,2000)"
+              />
+            </div>
+            <div>
+              <img src="../Картинки/курица.jpg" alt="" /> <br />
+              <span id="second__item">Ломтики курицы - 50гр</span> <br />
+              <br />
+              <span> 2 000 тенге</span> <br />
+              <br />
+              <input
+                type="button"
+                id="btn2"
+                value="+ в корзину"
+                onclick="Count(), putItem(`<img src ='../Картинки/курица.jpg' alt ='' id='img1' width='80px' height='120px'`,`Ломтики курицы - 50гр`, 2000)"
+              />
+            </div>
+            <div>
+              <img src="../Картинки/олень.jpg" alt="" /> <br />
+              <span>Ломтики оленины - 50гр</span> <br />
+              <br />
+              <span> 2 000 тенге</span> <br />
+              <br />
+              <input
+                type="button"
+                id="btn3"
+                value="+ в корзину"
+                onclick="Count(), putItem(`<img src ='../Картинки/олень.jpg' alt ='' id='img1' width='80px' height='120px'`,`Ломтики оленины - 50гр`, 2000)"
+              />
+            </div>
+          </div>
+          <div class="center_two">
+            <div>
+              <img src="../Картинки/свинина.jpg" alt="" /> <br />
+              <span>Ломтики свинины - 50гр</span> <br />
+              <br />
+              <span> 2 000 тенге</span> <br />
+              <br />
+              <input
+                type="button"
+                id="btn4"
+                value="+ в корзину"
+                onclick="Count(), putItem(`<img src ='../Картинки/свинина.jpg' alt ='' id='img1' width='80px' height='120px'`,`Ломтики свинины - 50гр`, 2000)"
+              />
+            </div>
+            <div>
+              <img src="../Картинки/конина.jpg" alt="" /> <br />
+              <span>Ломтики конины - 50гр</span> <br />
+              <br />
+              <span> 2 000 тенге</span> <br />
+              <br />
+              <input
+                type="button"
+                id="btn5"
+                value="+ в корзину"
+                onclick="Count(), putItem(`<img src ='../Картинки/конина.jpg' alt ='' id='img1' width='80px' height='120px'`,`Ломтики конины - 50гр`, 2000)"
+              />
+            </div>
+            <div>
+              <img src="../Картинки/говядина.jpg" alt="" /> <br />
+              <span>Ломтики говядины - 50гр</span> <br />
+              <br />
+              <span> 2 000 тенге</span> <br />
+              <br />
+              <input
+                type="button"
+                id="btn6"
+                value="+ в корзину"
+                onclick="Count(), putItem(`<img src ='../Картинки/говядина.jpg' alt ='' id='img1' width='80px' height='120px'`,`Ломтики говядины - 50гр`, 2000)"
+              />
+            </div>
+          </div>
+          <div class="center_three">
+            <div>
+              <img src="../Картинки/981772082.jpg" alt="" /> <br />
+              <span>Ломтики индейки - 100гр</span> <br />
+              <br />
+              <span> 4 000 тенге</span> <br />
+              <br />
+              <input
+                type="button"
+                id="btn7"
+                value="+ в корзину"
+                onclick="Count(), putItem(`<img src ='../Картинки/981772082.jpg' alt ='' id='img1' width='80px' height='120px'`,`Ломтики индейки - 100гр`, 4000)"
+              />
+            </div>
+            <div>
+              <img src="../Картинки/курица.jpg" alt="" /> <br />
+              <span>Ломтики курицы - 100гр</span> <br />
+              <br />
+              <span> 4 000 тенге</span> <br />
+              <br />
+              <input
+                type="button"
+                id="btn8"
+                value="+ в корзину"
+                onclick="Count(), putItem(`<img src ='../Картинки/курица.jpg' alt ='' id='img1' width='80px' height='120px'`,`Ломтики курицы - 100гр`, 4000)"
+              />
+            </div>
+            <div>
+              <img src="../Картинки/олень.jpg" alt="" /> <br />
+              <span>Ломтики оленины - 100гр</span> <br />
+              <br />
+              <span> 4 000 тенге</span> <br />
+              <br />
+              <input
+                type="button"
+                id="btn9"
+                value="+ в корзину"
+                onclick="Count(), putItem(`<img src ='../Картинки/олень.jpg' alt ='' id='img1' width='80px' height='120px'`,`Ломтики оленины - 100гр`, 4000)"
+              />
+            </div>
+          </div>
+          <div class="center_four">
+            <div>
+              <img src="../Картинки/свинина.jpg" alt="" /> <br />
+              <span>Ломтики свинины - 100гр</span> <br />
+              <br />
+              <span> 4 000 тенге</span> <br />
+              <br />
+              <input
+                type="button"
+                id="btn10"
+                value="+ в корзину"
+                onclick="Count(), putItem(`<img src ='../Картинки/свинина.jpg' alt ='' id='img1' width='80px' height='120px'`,`Ломтики свинины - 100гр`, 4000)"
+              />
+            </div>
+            <div>
+              <img src="../Картинки/конина.jpg" alt="" /> <br />
+              <span>Ломтики конины - 100гр</span> <br />
+              <br />
+              <span> 4 000 тенге</span> <br />
+              <br />
+              <input
+                type="button"
+                id="btn11"
+                value="+ в корзину"
+                onclick="Count(), putItem(`<img src ='../Картинки/конина.jpg' alt ='' id='img1' width='80px' height='120px'`,`Ломтики конины - 100гр`, 4000)"
+              />
+            </div>
+            <div>
+              <img src="../Картинки/говядина.jpg" alt="" /> <br />
+              <span>Ломтики говядины - 100гр</span> <br />
+              <br />
+              <span> 4 000 тенге</span> <br />
+              <br />
+              <input
+                type="button"
+                id="btn12"
+                value="+ в корзину"
+                onclick="Count(), putItem(`<img src ='../Картинки/говядина.jpg' alt ='' id='img1' width='80px' height='120px'`,`Ломтики говядины - 100гр`, 4000)"
+              />
+            </div>
+          </div>
+          <div class="center_five">
+            <div>
+              <img src="../Картинки/микс.png" alt="" /> <br />
+              <span>Коробка Микс - 1200гр</span> <br />
+              <br />
+              <span> 23 000 тенге</span> <br />
+              <br />
+              <input
+                type="button"
+                id="btn13"
+                value="+ в корзину"
+                onclick="Count(), putItem(`<img src ='../Картинки/микс.jpg' alt ='' id='img1' width='80px' height='120px'`,`Коробка Микс - 1200гр`, 23000)"
+              />
+            </div>
+            <div>
+              <img src="../Картинки/набор.jpg" alt="" /> <br />
+              <span>Два набора по - 600гр</span> <br />
+              <br />
+              <span> 23 000 тенге</span> <br />
+              <br />
+              <input
+                type="button"
+                id="btn14"
+                value="+ в корзину"
+                onclick="Count(), putItem(`<img src ='../Картинки/курица.jpg' alt ='' id='img1' width='80px' height='120px'`,`Два набора по - 600гр`, 23000)"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer_logo">
+        <div>
+          <span> *Дарим мясо в пачках по 20гр, для Ваших друзей </span> <br />
+          <br />
+          <span>
+            ** Бесплатная доставка курьером до адресата в Алмате и Астане, либо
+            посылкой КазПочтой в любое отделение.(возможны другие способы
+            доставки) </span
+          ><br />
+          <br />
+          <span>
+            © 2015 ООО «ТД «Сервис Юнит», Санкт-Петербург. ОГРН 1147847247239.
+            Телефон +7 911 170 3000.
+          </span>
+        </div>
+      </div>
+    </div>
+    <script src="../script.js"></script>
+  </body>
+</html>

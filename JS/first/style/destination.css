@@ -1,0 +1,284 @@
+/*------------------------Destination first-----------------------------*/
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+.dest1 {
+    width: 1000px;
+    height: 220px;
+    margin: auto;
+    padding-top: 80px;
+    animation-name: des1;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    opacity: 0;
+}
+@keyframes des1 {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.dest1 h2{
+    font-size: 65px;
+    font-family: ChunkFive-Regular;
+    font-weight: bold;
+    color: #26b19e;
+}
+
+.dest1 span{
+    position: relative;
+    top: -78px;
+    left: 115px;
+    font-size: 65px;
+    font-family: ChunkFive-Regular;
+    font-weight: bold;
+    color: #01a2a6;
+}
+.dest1 img{
+    position: relative;
+    left: 500px;
+    top: -90px;
+}
+.dest1 p{
+    margin-top: -25px;
+    color: #777;
+    font-family: Lato-Regular;
+    line-height: 35px;
+    font-style: 17px;
+}
+.dest-a{
+    color: #aeaeae;
+    position: relative;
+    left: 500px;
+    top: -95px;
+    font-size: 15px;
+    font-family: Lato-Regular;
+}
+/*------------------------Destination second-----------------------------*/
+.dest2{
+    width: 1100px;
+    height: 1200px;
+    margin: auto;
+}
+/*------------------------Destination 2.1-----------------------------*/
+.dest2first{
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    animation-name: des2f;
+    animation-duration: 2s;
+    animation-delay: 3.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    opacity: 0;
+}
+@keyframes des2f{
+    0% {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.dest2first input{
+    border: 1px #e8e8e8 solid;
+    border-radius: 23px;
+    width: 250px;
+    height: 40px;
+    margin-top: 40px;
+    text-align: center;
+    background-image: url(../image/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: 0.625em 0.625em;
+    color: #aeaeae;
+}
+.dest2-a{
+    margin-top: 65px;
+    color: #aeaeae;
+}
+/*------------------------Destination 2.2-----------------------------*/
+.dest2second{
+    width: 1100px;
+    height: 510px;
+    margin: auto;
+    background-image: url(../image/batu_bg.jpg);
+    background-repeat: no-repeat;
+    animation-name: dest2s;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    opacity: 0;
+}
+@keyframes dest2s {
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.dest2second div{
+    position: absolute;
+    z-index: 0;
+    border: none;
+    right: 400px;
+    width: 400px;
+    height: 510px;
+    background-color: rgba(217, 219, 217, 0.74);
+}
+.dest2second>div img{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.dest2second h3{
+    font-family: Lato-Regular;
+    font-size: 35px;
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #01a2a6;
+}
+.dest2second p{
+    font-family: Lato-Regular;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 30px;
+    color: #777;
+}
+/*------------------------Destination 3-----------------------------*/
+.dest2third {
+    width: 1100px;
+    height: 510px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/*------------------------Destination 3.1-----------------------------*/
+.d2t1{
+    width: 700px;
+    background-image: url(../image/bromo_bg.jpg);
+    background-repeat: no-repeat;
+    margin-right: 30px;
+    margin-top: 30px;
+    animation-name: d2t1;
+    animation-duration: 2s;
+    animation-delay: 4.7s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    opacity: 0;
+}
+
+@keyframes d2t1 {
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.d2t1 div{
+    position: absolute;
+    z-index: 0;
+    border: none;
+    left: 400px;
+    width: 350px;
+    height: 361px;
+    background-color: rgba(217, 219, 217, 0.74);
+}
+.d2t1>div img{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 120px;
+}
+.d2t1>div h3{
+    font-family: Lato-Regular;
+    font-size: 35px;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #01a2a6;
+}
+.d2t1>div p{
+    font-family: Lato-Regular;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #777;
+}
+/*------------------------Destination 3.2-----------------------------*/
+.d2t2{
+    width: 400px;
+    background-image: url(../image/biru_bg.jpg);
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    animation-name: d2t2;
+    animation-duration: 2s;
+    animation-delay: 4.7s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    opacity: 0;
+}
+@keyframes d2t2 {
+    0%{
+        opacity: 0;
+        
+    }
+    100% {
+        opacity: 1;
+    }
+/*------------------------Destination 4-----------------------------*/
+}
+.dest2four {
+    width: 1100px;
+    height: 200px;
+    margin: auto;
+    margin-top: -200px;
+}  
+ul{
+    list-style: none;
+} 
+.ultitle {
+    margin-left: 350px;;
+}
+.ultitle li{
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: ChunkFive-Regular;
+}
+.desttiles1{
+    font-size: 25px;
+    color: #01a2a6;
+}
+.desttiles{
+    font-family: Chunkfive;
+    font-size: 20px;
+    color: #acacac;
+}

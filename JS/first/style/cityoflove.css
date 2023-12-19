@@ -1,0 +1,35 @@
+
+/*------------------------City-Of-Love-----------------------------------*/
+p{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.col div{
+    margin-right: 60px;
+}
+.col h2{
+    font-size: 65px;
+    font-family: ChunkFive-Regular;
+    font-weight: bold;
+    color: #26b19e;
+}
+.col span{
+    position: relative;
+    left: 230px;
+    top: -78px;
+    font-size: 65px;
+    font-family: ChunkFive-Regular;
+    font-weight: bold;
+    color: #01a2a6;
+}
+.col p{
+    margin-top: -25px;
+    color: #777;
+    font-family: Lato-Regular;
+    line-height: 35px;
+}

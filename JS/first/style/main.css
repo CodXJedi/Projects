@@ -1,0 +1,148 @@
+/*------------------------HEADER---------------------------------------*/
+header {
+  width: 100%;
+  min-height: 700px;
+  background-image: url(../image/header_bg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: rgb(80, 19, 19);
+}
+/*-----------------------------Main-------------------------------------*/
+.main {
+  width: 100%;
+  min-height: 1000px;
+}
+/*-------------------------FIRST PAGE----------------------------------*/
+.col {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  margin-top: 160px;
+}
+/*------------------------SECOND PAGE--DESTINATION----------------------*/
+.dest {
+  width: 100%;
+  min-height: 1000px;
+  background-color: #bfe6e756;
+}
+/*-------------------------THIRD-PAGE--ITTINERY-------------------------*/
+.Ittinery {
+  width: 100%;
+  min-height: 1300px;
+}
+/*-------------------------FOUR-PAGE--CONTACT----------------------*/
+.Contact {
+  width: 100%;
+  height: 670px;
+  background: url(../image/contact_map_bg.jpg) no-repeat;
+  background-size: 100% 100%;
+  animation-name: contact;
+  animation-duration: 1s;
+  animation-delay: 7.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+@keyframes contact {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*-------------------------FIVE-PAGE--REVIEW----------------------*/
+.Review {
+  width: 100%;
+  height: 250px;
+  background: url(../image/subscribe_bg.png) no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.Review div {
+  width: 550px;
+  height: 180px;
+  margin-top: 60px;
+}
+.Review > div h3 {
+  font-family: ChunkFive-Regular;
+  color: white;
+  text-align: center;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 120px;
+}
+.Review > div p {
+  font-family: Lato-Regular;
+  color: white;
+  margin-left: 43px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.reviewinput {
+  margin-top: 30px;
+  width: 400px;
+  height: 70px;
+  border: none;
+  border-radius: 5px;
+  font-family: Lato-Regular;
+  font-size: 17px;
+  font-style: italic;
+  color: rgba(128, 128, 128, 0.432);
+  padding-left: 20px;
+}
+.reviewbutton {
+  position: relative;
+  top: 30px;
+  left: -5px;
+  width: 70px;
+  height: 73px;
+  border: none;
+  border-radius: 5px;
+  background: url(../image/arrow_next_big.png) center center no-repeat;
+  font-size: 30px;
+  background-color: #01a2a6;
+}
+/*-----------------------------FOOTER-------------------------*/
+footer {
+  width: 100%;
+  height: 300px;
+  background: url(../image/footer_colors_bg.jpg) no-repeat center bottom,
+    url(../image/content-info_bg.jpg) no-repeat;
+  background-size: 100% auto, 100% 100%;
+}
+.footer_content {
+  margin: auto;
+  max-width: 1228px;
+}
+.footer_content-info-list {
+  float: left;
+  width: 354px;
+  margin-top: 24px;
+  margin-left: 0.29px;
+  letter-spacing: 0;
+}
+.footer_content-info-item a {
+  font-family: Lato-Regular;
+  font-size: 12;
+  float: left;
+  padding-right: 16px;
+  padding-left: 13.328px;
+  color: #5d5c5c;
+  background: url(../image/dot_grey.png) right center no-repeat;
+}
+.footer_content-social {
+  float: right;
+  width: 200px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.footer_social {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
